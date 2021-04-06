@@ -1,0 +1,47 @@
+body {
+  margin: 0
+}
+
+/* Exo margin */
+section{
+  background-color: #4da6ff;
+}
+h2{
+  background-color: yellow;
+  border: 2px black solid;
+}
+ 
+section:nth-child(1)>h2:first-of-type{
+  
+  margin:50px;
+}
+
+section:nth-child(1)>h2:nth-of-type(2){
+  margin-left:20%;
+}
+ 
+section:nth-child(1)>h2:last-of-type{
+  margin: auto;
+  }
+/* fin exo margin */
+
+/* exo padding */
+section:nth-child(2)>h2:first-of-type{
+  padding: 50px;
+}
+
+section:nth-child(2)>h2:last-of-type{
+padding-left: 20%;
+}
+
+
+/* fin exo padding */
+
+/* exo display */
+/* fin exo display */
+
+/* exo position */
+/* fin exo position */
+
+/* exo position (priorité) */
+/* fin exo position (priorité) */
